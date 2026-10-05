@@ -17,8 +17,6 @@ metadata:
 spec:
   chart:
     spec:
-      values:
-        replicaCount: 2
       chart: podinfo
       reconcileStrategy: ChartVersion
       sourceRef:
@@ -30,3 +28,5 @@ spec:
   interval: 10m0s
   storageNamespace: podinfo
   targetNamespace: podinfo
+  values:
+    replicaCount: 2
