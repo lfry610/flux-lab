@@ -26,6 +26,8 @@ spec:
   install:
     createNamespace: true
   interval: 10m0s
+  driftDetection:
+    mode: enabled
   storageNamespace: podinfo
   targetNamespace: podinfo
   values:
