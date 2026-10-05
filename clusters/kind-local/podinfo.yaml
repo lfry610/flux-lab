@@ -17,6 +17,8 @@ metadata:
 spec:
   chart:
     spec:
+      values:
+	replicaCount: 2
       chart: podinfo
       reconcileStrategy: ChartVersion
       sourceRef:
